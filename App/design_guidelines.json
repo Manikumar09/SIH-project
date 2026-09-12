@@ -1,0 +1,41 @@
+{
+  "app_name": "Land Governance Knowledge Platform (SIH 2025)",
+  "context": "National land governance research and policy evidence platform with citation-grounded search, document viewer with highlighted passages, dispute analytics GIS-style dashboard, transparent policy simulation with sliders and assumptions, and researcher workspace.",
+  "theme": "Light mode primary with earth-toned archival contrast (Archetype 1: Organic & Earthy + Swiss High-Contrast authority)",
+  "typography": {
+    "heading_font": "Plus Jakarta Sans",
+    "body_font": "Inter",
+    "mono_font": "JetBrains Mono"
+  },
+  "colors": {
+    "primary": "#1E3A2F",
+    "primary_hover": "#2C4E41",
+    "secondary": "#D9822B",
+    "background": "#F9F8F6",
+    "surface": "#FFFFFF",
+    "border": "#E4E2DD",
+    "text_main": "#1A1C19",
+    "text_muted": "#5F635E",
+    "accent_verified": "#2E7D32",
+    "accent_illustrative": "#D9822B",
+    "accent_simulation": "#0288D1"
+  },
+  "visual_enhancers": {
+    "glass_blur": "backdrop-blur-xl bg-white/80 border border-stone-200/80 shadow-sm",
+    "radius": "rounded-lg",
+    "texture": "subtle dot pattern / topological grid lines"
+  },
+  "component_path": "/app/frontend/src/components/",
+  "instructions_to_main_agent": "Ensure every interactive and informational element includes data-testid attributes. Implement strict role-based demo switching (Public, Researcher, Official, Admin). Build tabbed views for Research Search, Dispute Analytics, Policy Simulation, and Researcher Workspace. Ensure citation badges link directly to the document viewer with highlighted passage modal or drawer. Clearly label illustrative analytics vs verified corpus.",
+  "image_urls": {
+    "aerial_survey": "https://images.unsplash.com/photo-1721424759830-e4b892acf1d7",
+    "topographic_map": "https://images.pexels.com/photos/29806465/pexels-photo-29806465.jpeg"
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "All interactive elements MUST include data-testid attributes (e.g. data-testid='search-input', data-testid='citation-badge')",
+    "Never use full transparent backgrounds in sticky headers or dropdowns",
+    "Maintain strict distinction between verified curated documents and illustrative policy simulations",
+    "Use Generous Spacing and Bento Grids with tactile feedback"
+  ]
+}
+
